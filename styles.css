@@ -1,13 +1,16 @@
 /*  your css code here. If applicable */
-#hero{
+.hero{
 	display:flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	align-items:center;
-	object-fit: cover;
 }
 
 button{
 	color: white;
 	background-color: orangered;
 	padding:8px;
+}
+
+#img{
+	object-fit: cover;
 }
