@@ -1,16 +1,31 @@
 /*  your css code here. If applicable */
 .hero{
 	display:flex;
-	justify-content: space-around;
+	justify-content: flex-start;
 	align-items:center;
 }
 
-button{
-	color: white;
+button,a{
 	background-color: orangered;
 	padding:8px;
+	border: none;
+	border-radius: 3px;
+	padding: 5px 10px;
+	color: white;
+	text-decoration: none;
 }
 
-#img{
+img{
+	width: 500px;
+	height: 220px;
 	object-fit: cover;
+}
+
+#hero-1{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-inline: 10px;
 }
